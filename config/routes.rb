@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "curriculums#index_main"
   devise_for :users
   resources :curriculums
   # The priority is based upon order of creation: first created -> highest priority.

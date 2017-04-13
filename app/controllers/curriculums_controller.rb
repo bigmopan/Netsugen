@@ -3,6 +3,9 @@ class CurriculumsController < ApplicationController
 
   # GET /curriculums
   # GET /curriculums.json
+  def index_main
+  end
+
   def index
     @curriculums = Curriculum.all
   end
