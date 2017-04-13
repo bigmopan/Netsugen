@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   root :to => "curriculums#index_main"
+  get 'curriculums/kishu_list' => "curriculums#kishu_list"
+  get 'curriculums/mcquay' => "curriculums#mcquay"
+  get 'curriculums/screw' => "curriculums#screw"
+  get 'curriculums/mcquay/oh' => "curriculums#mcquayoh"
+  get 'curriculums/mcquay/tenken' => "curriculums#mcquaytenken"
   devise_for :users
   resources :curriculums
   # The priority is based upon order of creation: first created -> highest priority.

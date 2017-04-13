@@ -6,6 +6,21 @@ class CurriculumsController < ApplicationController
   def index_main
   end
 
+  def kishu_list
+  end
+
+  def mcquay
+  end
+
+  def screw
+  end
+
+  def mcquayoh
+  end
+
+  def mcquaytenken
+  end
+
   def index
     @curriculums = Curriculum.all
   end
