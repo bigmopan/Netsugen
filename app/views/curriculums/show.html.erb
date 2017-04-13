@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @curriculum.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @curriculum.body %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @curriculum.image %>
+</p>
+
+<p>
+  <strong>Check:</strong>
+  <%= @curriculum.check %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @curriculum.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_curriculum_path(@curriculum) %> |
+<%= link_to 'Back', curriculums_path %>
