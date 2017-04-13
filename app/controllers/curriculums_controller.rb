@@ -16,6 +16,7 @@ class CurriculumsController < ApplicationController
   end
 
   def mcquayoh
+    @curriculums = Curriculum.all
   end
 
   def mcquaytenken
